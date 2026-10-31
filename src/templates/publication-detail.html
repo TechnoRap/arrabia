@@ -1,0 +1,39 @@
+<section class="page-head">
+  <div class="wrap">
+    <p class="eyebrow">Publication · {{year}}</p>
+    <h1 style="font-size:clamp(1.8rem,3.6vw,2.8rem);max-width:30ch">{{title_html}}</h1>
+    <p class="lede small" style="max-width:none">{{authors}}</p>
+    <div class="btn-row">
+      <a class="btn btn--small" href="{{url}}" rel="noopener">Open in repository</a>
+      <a class="btn btn--ghost btn--small" href="../publications.html">All publications</a>
+    </div>
+  </div>
+</section>
+
+<section class="section section--tight">
+  <div class="wrap grid grid--sidebar">
+    <div class="prose">
+      <h2>Summary</h2>
+      <p class="note">No abstract is stored in the catalogue record. The summary appears here once it is supplied with the record.</p>
+      <h2>Keywords</h2>
+      <ul class="pub__tags" style="list-style:none;padding:0">{{keywords}}</ul>
+      <h2>Project</h2>
+      <p>Not linked to a project yet. Each record needs a project field before this link can be shown.</p>
+    </div>
+    <aside>
+      <div class="card">
+        <p class="eyebrow">Record</p>
+        <dl class="meta-list">
+          <dt>Year</dt><dd>{{year}}</dd>
+          <dt>Type</dt><dd>{{repository}}</dd>
+          <dt>DOI</dt><dd><a href="https://doi.org/{{doi}}" rel="noopener">{{doi}}</a></dd>
+          <dt>Link</dt><dd><a href="{{url}}" rel="noopener">{{url}}</a></dd>
+        </dl>
+      </div>
+      <div class="card card--placeholder" style="margin-top:16px">
+        <p class="eyebrow">Attachments</p>
+        <p>None. Files can be attached when they are supplied with the record.</p>
+      </div>
+    </aside>
+  </div>
+</section>

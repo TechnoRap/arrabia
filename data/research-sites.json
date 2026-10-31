@@ -1,0 +1,117 @@
+{
+ "sites": [
+  {
+   "id": "arctic",
+   "name": "Arctic Tundra",
+   "x": 33.6,
+   "y": 17.8,
+   "projects": [
+    {
+     "ssp": "SSP 1",
+     "text": "Carbon loss through permafrost degradation, fires, and meltwater flows in Arctic Greenland."
+    },
+    {
+     "ssp": "SSP 5",
+     "text": "Combined paleoclimate record and modelling study on ocean-ice interactions."
+    },
+    {
+     "ssp": "SSP 6",
+     "text": "Contemporary and future Greenland and Antarctic ice sheets, sea level, and ocean dynamics."
+    }
+   ],
+   "lat": 72,
+   "lon": -40,
+   "px": 425.6,
+   "py": 14.8
+  },
+  {
+   "id": "ocean",
+   "name": "Ocean",
+   "x": 37.8,
+   "y": 33.1,
+   "projects": [
+    {
+     "ssp": "SSP 3",
+     "text": "Lagrangian modelling approach to tackle the multi-timescale problem of ocean carbon cycling."
+    },
+    {
+     "ssp": "SSP 4",
+     "text": "Combined paleoclimate record and modelling study on carbon dynamics."
+    },
+    {
+     "ssp": "SSP 5",
+     "text": "Combined paleoclimate record and modelling study on ocean-ice interactions."
+    },
+    {
+     "ssp": "SSP 6",
+     "text": "Contemporary and future Greenland and Antarctic ice sheet, sea level and ocean dynamics."
+    }
+   ],
+   "lat": 36,
+   "lon": -38,
+   "px": 403.2,
+   "py": 113.6
+  },
+  {
+   "id": "amazon",
+   "name": "Amazon",
+   "x": 30.4,
+   "y": 57.9,
+   "projects": [
+    {
+     "ssp": "SSP 2",
+     "text": "Vegetation dynamics, fires, and carbon flows in the Amazon."
+    },
+    {
+     "ssp": "SSP 8",
+     "text": "Reservoir construction and greenhouse climate feedbacks."
+    }
+   ],
+   "lat": -3.5,
+   "lon": -62,
+   "px": 325.3,
+   "py": 259.6
+  },
+  {
+   "id": "himalaya",
+   "name": "Himalaya",
+   "x": 69.6,
+   "y": 40.6,
+   "projects": [
+    {
+     "ssp": "SSP 7",
+     "text": "Integrated study of entire watershed from high mountain Asia to the Indian Ocean."
+    },
+    {
+     "ssp": "SSP 8",
+     "text": "Reservoir construction and greenhouse climate feedbacks."
+    }
+   ],
+   "lat": 28.5,
+   "lon": 86,
+   "px": 730.7,
+   "py": 139.7
+  },
+  {
+   "id": "antarctica",
+   "name": "Antarctica",
+   "x": 28.9,
+   "y": 94.8,
+   "projects": [
+    {
+     "ssp": "SSP 5",
+     "text": "Combined paleoclimate record and modelling study on ocean-ice interactions."
+    },
+    {
+     "ssp": "SSP 6",
+     "text": "Contemporary and future Greenland and Antarctic ice sheet, sea level and ocean dynamics."
+    }
+   ],
+   "lat": -72,
+   "lon": -62,
+   "px": 384.1,
+   "py": 477.7
+  }
+ ],
+ "note": "Pin coordinates are approximate region centres chosen for the map, not exact field-site coordinates. Check with Rabia."
+}

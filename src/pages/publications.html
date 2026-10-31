@@ -1,0 +1,68 @@
+<!-- title: Publications | nav: publications | desc: Searchable catalogue of EMBRACER research data records, filterable by year, type and project. -->
+<section class="page-head">
+  <div class="wrap">
+    <p class="eyebrow">Publications · Research data catalogue</p>
+    <h1>Publications</h1>
+    <p class="lede">{{pub_count}} records from the EMBRACER research data catalogue. Search by title, author or keyword, or narrow the list by year, type and project. Each record links to its page and to the original DOI.</p>
+  </div>
+</section>
+
+<section class="section section--tight">
+  <div class="wrap">
+    <h2 class="sr-only">Filter publications</h2>
+    <div class="filters">
+      <div class="field">
+        <label for="pub-q">Search title, author or keyword</label>
+        <input type="search" id="pub-q" name="q" autocomplete="off" placeholder="e.g. FAIR data">
+      </div>
+      <div class="field">
+        <label for="pub-year">Year</label>
+        <select id="pub-year" name="year">
+          <option value="">All years</option>{{pub_year_options}}
+        </select>
+      </div>
+      <div class="field">
+        <label for="pub-type">Type</label>
+        <select id="pub-type" name="type">
+          <option value="">All types</option>
+          <option value="Zenodo">Zenodo</option>
+        </select>
+      </div>
+      <div class="field">
+        <label for="pub-project">Project</label>
+        <select id="pub-project" name="project">
+          <option value="">All projects</option>
+          <option value="ssp-1">SSP 1</option>
+          <option value="ssp-2">SSP 2</option>
+          <option value="ssp-3">SSP 3</option>
+          <option value="ssp-4">SSP 4</option>
+          <option value="ssp-5">SSP 5</option>
+          <option value="ssp-6">SSP 6</option>
+          <option value="ssp-7">SSP 7</option>
+          <option value="ssp-8">SSP 8</option>
+        </select>
+      </div>
+    </div>
+    <div class="btn-row">
+      <button type="button" class="btn btn--ghost btn--small" data-pub-reset>Reset filters</button>
+    </div>
+    <p class="pub-count" data-pub-count aria-live="polite" aria-atomic="true"></p>
+
+    <h2 class="sr-only">Records</h2>
+    <ul class="pub-list" data-pub-list>{{publications_list}}</ul>
+    <div class="empty" data-pub-empty hidden>
+      <h3>No publications match</h3>
+      <p>Try another word or reset the filters.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section section--paper2 section--tight">
+  <div class="wrap wrap--narrow">
+    <h2>About this catalogue</h2>
+    <div class="note">
+      <p>Author data is shown exactly as it appears in the catalogue record. No record is linked to a project yet, so the project filter currently returns nothing when set; links appear once the records carry a project field.</p>
+    </div>
+    <p>The records are harvested from Zenodo. Follow a record to its page for the full keyword list and the DOI, or go to the <a href="{{root}}research.html">research projects</a> to see what each SSP works on.</p>
+  </div>
+</section>

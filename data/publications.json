@@ -1,0 +1,236 @@
+[
+  {
+    "repository": "Zenodo (Zenodo community)",
+    "authors": "Brunst, Vincent, Kandylas, Aristotelis, Speed, Garrett, M. Dadkan, Maisam",
+    "title": "RDM Introduction Class - Physical Geography and Earth Sciences",
+    "year": 2026,
+    "doi": "10.5281/zenodo.19707684",
+    "url": "https://zenodo.org/record/19707684",
+    "keywords": "RDM, open science, research data management, data documentation, FAIR data, file naming, yoda, folder structure"
+  },
+  {
+    "repository": "Zenodo (Zenodo community)",
+    "authors": "M. Dadkan, Maisam, Speed, Garrett, Kandylas, Aristotelis, Brunst, Vincent",
+    "title": "Posters of Open Science day for faculty of Geosciences, Utrecht University",
+    "year": 2026,
+    "doi": "10.5281/zenodo.18267239",
+    "url": "https://zenodo.org/record/18267239",
+    "keywords": "open science, open source, open access, faculty of geosciences, books, research data, research software, poster, FAIR, research data management, reusability"
+  },
+  {
+    "repository": "Zenodo (Zenodo community)",
+    "authors": "Brunst, Vincent, Kandylas, Aristotelis",
+    "title": "FAIR Data and Code - CycloNet 2025",
+    "year": 2025,
+    "doi": "10.5281/zenodo.15754278",
+    "url": "https://zenodo.org/record/15754278",
+    "keywords": "open science, rdm, fair data, metadata, data documentation, folder structure, file naming, data preservation, uu, open data, fair code, reproducible research, coding practices, FAIR"
+  },
+  {
+    "repository": "Zenodo (Zenodo community)",
+    "authors": "Speed, Garrett, M. Dadkan, Maisam, Brunst, Vincent, Kandylas, Aristotelis",
+    "title": "Researchers and Supporters: Supply and Demand - Post Conference Report on the Session Findings",
+    "year": 2025,
+    "doi": "10.5281/zenodo.15753765",
+    "url": "https://zenodo.org/record/15753765",
+    "keywords": "⚠️ Keywords Missing"
+  },
+  {
+    "repository": "Zenodo (Zenodo community)",
+    "authors": "Garrett Speed, Aristotelis Kandylas",
+    "title": "Getting Started with Git and GitHub at UU Geosciences",
+    "year": 2025,
+    "doi": "10.5281/zenodo.14696553",
+    "url": "https://zenodo.org/record/14696553",
+    "keywords": "git, github, workshop, code versioning, code, utrecht university, rdm"
+  },
+  {
+    "repository": "Zenodo (Zenodo community)",
+    "authors": "Speed, Garrett, Kandylas, Aristotelis",
+    "title": "Collaboratively Writing Code with Git and GitHub",
+    "year": 2025,
+    "doi": "10.5281/zenodo.14696635",
+    "url": "https://zenodo.org/record/14696635",
+    "keywords": "⚠️ Keywords Missing"
+  },
+  {
+    "repository": "Zenodo (Zenodo community)",
+    "authors": "Brunst, Vincent, Kandylas, Aristotelis",
+    "title": "Data with a Smile: Turning FAIR into Fun!",
+    "year": 2024,
+    "doi": "10.5281/zenodo.13929001",
+    "url": "https://zenodo.org/record/13929001",
+    "keywords": "open science, research data management, rdm, yoda, uu, geosciences, fair data, metadata, data documentation, wooclap, hands-on, data assessment, folder structure, file naming, data publication"
+  },
+  {
+    "repository": "Zenodo (Zenodo community)",
+    "authors": "M. Dadkan, Maisam",
+    "title": "Research data and code management workshop for the transport group at Faculty of Geoscience of Utrecht University",
+    "year": 2024,
+    "doi": "10.5281/zenodo.12722229",
+    "url": "https://zenodo.org/record/12722229",
+    "keywords": "Yoda, Research Data, Research software, Open Science, RDM"
+  },
+  {
+    "repository": "Zenodo (Zenodo community)",
+    "authors": "Speed, Garrett, Treep, Jelle, Kandylas, Aristotelis",
+    "title": "Transformative Workshop Delivery through SURF's Cloud- Based Solutions",
+    "year": 2024,
+    "doi": "10.5281/zenodo.12529252",
+    "url": "https://zenodo.org/record/12529252",
+    "keywords": "open science, python, SURF, practical learning, oer, cloud platform, workshop"
+  },
+  {
+    "repository": "Zenodo (Zenodo community)",
+    "authors": "M. Dadkan, Maisam, Speed, Garrett",
+    "title": "Documenting Research Data",
+    "year": 2024,
+    "doi": "10.5281/zenodo.10852867",
+    "url": "https://zenodo.org/record/10852867",
+    "keywords": "research data, data documentation, FAIR principles, metadata, README"
+  },
+  {
+    "repository": "Zenodo (Zenodo community)",
+    "authors": "M. Dadkan, Maisam",
+    "title": "Getting Started with Programming",
+    "year": 2024,
+    "doi": "10.5281/zenodo.10837011",
+    "url": "https://zenodo.org/record/10837011",
+    "keywords": "FAIR, Programming, Research Software, Coding, Open Science"
+  },
+  {
+    "repository": "Zenodo (Zenodo community)",
+    "authors": "Maisam M. Dadkan, Vincent Brunst",
+    "title": "Data publication and archiving workshop",
+    "year": 2024,
+    "doi": "10.5281/zenodo.10822514",
+    "url": "https://zenodo.org/record/10822514",
+    "keywords": "Research data management, data publishing, FAIR, Open data, RDM"
+  },
+  {
+    "repository": "Zenodo (Zenodo community)",
+    "authors": "Garrett Speed, Beltrán, Mercedes",
+    "title": "Managing Research Data in Office365",
+    "year": 2024,
+    "doi": "10.5281/zenodo.10820691",
+    "url": "https://zenodo.org/record/10820691",
+    "keywords": "onedrive, sharepoint, teamsite, microsoft, teams, microsoft teams, research data management, rdm"
+  },
+  {
+    "repository": "Zenodo (Zenodo community)",
+    "authors": "Vincent Brunst, Maisam M. Dadkan",
+    "title": "Managing Research data in YoDa",
+    "year": 2024,
+    "doi": "10.5281/zenodo.10812783",
+    "url": "https://zenodo.org/record/10812783",
+    "keywords": "yoda, RDM, Research data management, irods, Utrecht university"
+  },
+  {
+    "repository": "Zenodo (Zenodo community)",
+    "authors": "Brunst, Vincent",
+    "title": "Sharing data within UU and Outside",
+    "year": 2024,
+    "doi": "10.5281/zenodo.10805324",
+    "url": "https://zenodo.org/record/10805324",
+    "keywords": "Research data management, RDM, Sharing data, Data Encryption, SurfDrive, OneDrive / Sharepoint, Yoda, Legal agreements, Disclosing data, Collaborator, Document"
+  },
+  {
+    "repository": "Zenodo (Zenodo community)",
+    "authors": "M. Dadkan, Maisam",
+    "title": "Getting Started with JupyterNotebook",
+    "year": 2024,
+    "doi": "10.5281/zenodo.10788361",
+    "url": "https://zenodo.org/record/10788361",
+    "keywords": "FAIR, OpenScience, Research Software, Utrecht University, Jupyter, Reproducibility, Research Data"
+  },
+  {
+    "repository": "Zenodo (Zenodo community)",
+    "authors": "Romero Pastrana, Francisco, Speed, Garrett, M. Dadkan, Maisam, Brunst, Vincent, Kandylas, Aristotelis",
+    "title": "Interactive Session on Successes and Failures in Researcher Engagement",
+    "year": 2024,
+    "doi": "10.5281/zenodo.10730840",
+    "url": "https://zenodo.org/record/10730840",
+    "keywords": "⚠️ Keywords Missing"
+  },
+  {
+    "repository": "Zenodo (Zenodo community)",
+    "authors": "Kandylas, Aristotelis",
+    "title": "Planning Data Management",
+    "year": 2024,
+    "doi": "10.5281/zenodo.10722155",
+    "url": "https://zenodo.org/record/10722155",
+    "keywords": "data management, data management plan, dmp, research data management, utrecht university, FAIR, open science"
+  },
+  {
+    "repository": "Zenodo (Zenodo community)",
+    "authors": "Speed, Garrett, Romero Pastrana, Francisco",
+    "title": "UU Geosciences - Master's Research Design - Data and Privacy",
+    "year": 2024,
+    "doi": "10.5281/zenodo.10691588",
+    "url": "https://zenodo.org/record/10691588",
+    "keywords": "⚠️ Keywords Missing"
+  },
+  {
+    "repository": "Zenodo (Zenodo community)",
+    "authors": "Romero Pastrana, Francisco",
+    "title": "Privacy scan - template",
+    "year": 2024,
+    "doi": "10.5281/zenodo.10527709",
+    "url": "https://zenodo.org/record/10527709",
+    "keywords": "⚠️ Keywords Missing"
+  },
+  {
+    "repository": "Zenodo (Zenodo community)",
+    "authors": "Kandylas, Aristotelis, Beltrán, Mercedes",
+    "title": "Planning Data and Software Management",
+    "year": 2023,
+    "doi": "10.5281/zenodo.10201414",
+    "url": "https://zenodo.org/record/10201414",
+    "keywords": "data management plan, dmp, software management plan, smp, research software, FAIR, RDM, utrecht university"
+  },
+  {
+    "repository": "Zenodo (Zenodo community)",
+    "authors": "Maisam M. Dadkan, Garrett Speed, Beltran, Mercedes",
+    "title": "Metadata in practice",
+    "year": 2023,
+    "doi": "10.5281/zenodo.8410119",
+    "url": "https://zenodo.org/record/8410119",
+    "keywords": "Research data management, RDM, Metadata, FAIR, Open data"
+  },
+  {
+    "repository": "Zenodo (Zenodo community)",
+    "authors": "Maisam M. Dadkan, Garrett Speed, Beltran, Mercedes",
+    "title": "How to Write a README",
+    "year": 2023,
+    "doi": "10.5281/zenodo.10117932",
+    "url": "https://zenodo.org/record/10117932",
+    "keywords": "README, Data management, Data documentation, RDM"
+  },
+  {
+    "repository": "Zenodo (Zenodo community)",
+    "authors": "Kandylas, Aristotelis, Speed, Garrett, M. Dadkan, Maisam",
+    "title": "RDM Support Session -  PhD Introduction Class in Physical Geography",
+    "year": 2023,
+    "doi": "10.5281/zenodo.10043676",
+    "url": "https://zenodo.org/record/10043676",
+    "keywords": "RDM, research data management, open science, FAIR, open data, fair data, Utrecht University, Geo Data Team"
+  },
+  {
+    "repository": "Zenodo (Zenodo community)",
+    "authors": "Speed, Garrett, Treep, Jelle, Kandylas, Aristotelis",
+    "title": "Power of Python for GIS",
+    "year": 2023,
+    "doi": "10.5281/zenodo.10034382",
+    "url": "https://zenodo.org/record/10034382",
+    "keywords": "python, jupyter, gis"
+  },
+  {
+    "repository": "Zenodo (Zenodo keyword)",
+    "authors": "Treloar, Andrew, Woodford, Charles, Genova, Francoise, Harrower, Natalie, Scharnhorst, Andrea, Teperek, Marta, Tsang, Emmy, Doran, Michelle, Ferrari, Tiziana, Gregory, Kathleen, Grossman, Robert, Hoogerwerf, Maarten, Hugo, Wim, Jetten, Mijke, Matas, Lautaro Julián, miedema, margriet, Macneil, Rory, Newbold, Elizabeth, Parland-von Essen, Jessica, Sesink, Laurents, Nyberg Åkerström, Wolmar",
+    "title": "Making the Global Open Research Commons Truly Global: A report from the Lorentz Workshop, July 21-25 2025",
+    "year": 2026,
+    "doi": "10.5281/zenodo.18383293",
+    "url": "https://zenodo.org/record/18383293",
+    "keywords": "digital research infrastructures, commons, EOSC"
+  }
+]

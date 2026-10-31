@@ -1,0 +1,135 @@
+<!-- title: Admin | nav: admin | desc: Concept of the EMBRACER content editor with a hotspot editor for interactive pages. | bodyclass: is-app -->
+<div class="admin">
+  <nav class="admin__side" aria-label="Admin">
+    <p class="eyebrow">Content</p>
+    <ul>
+      <li><a href="#">Pages</a></li>
+      <li><a href="#" aria-current="page">Interactive pages</a></li>
+      <li><a href="#">Publications</a></li>
+      <li><a href="#">Visitors</a></li>
+      <li><a href="#">Settings</a></li>
+    </ul>
+    <p class="small" style="margin-top:24px">Signed in as <em>Editor</em> (placeholder). <a href="{{root}}signin.html">Sign out</a></p>
+  </nav>
+
+  <div class="admin__main">
+    <p class="eyebrow">Interactive pages · Climate illustration</p>
+    <div class="admin__bar">
+      <div class="btn-row" style="align-items:center">
+        <h1 style="margin:0;font-size:clamp(1.6rem,2.6vw,2.2rem)">Feedback loops</h1>
+        <span class="status-pill status-pill--draft">Draft</span>
+      </div>
+      <div class="btn-row" style="align-items:center">
+        <div class="preview-toggle" role="group" aria-label="Preview size">
+          <button type="button" data-preview="desktop" aria-pressed="true">Desktop</button>
+          <button type="button" data-preview="phone" aria-pressed="false">Phone</button>
+        </div>
+        <button type="button" class="btn btn--ghost btn--small">Save draft</button>
+        <button type="button" class="btn btn--small">Publish</button>
+      </div>
+    </div>
+
+    <div class="admin__bar">
+      <p class="small" style="margin:0">Three of the nine points are loaded as an example. Select a point to edit its text and position.</p>
+      <button type="button" class="btn btn--small" data-hotspot-add>Add point</button>
+    </div>
+
+    <div class="editor">
+      <div class="editor__canvas" data-hotspot-editor>
+        <p class="eyebrow">Blocks</p>
+        <div class="field">
+          <label for="blk-intro">Text block: intro</label>
+          <textarea id="blk-intro" name="intro" style="min-height:88px">Placeholder: example intro text for the Feedback loops page. Edit it here; the hotspots below sit on the image block.</textarea>
+        </div>
+        <div class="field">
+          <span class="small">Image block: feedback-loops.webp (1133 &times; 553)</span>
+          <div class="btn-row">
+            <button type="button" class="btn btn--ghost btn--small">Replace image</button>
+            <button type="button" class="btn btn--ghost btn--small">Alt text</button>
+          </div>
+        </div>
+        <figure class="explore__figure">
+          <img src="{{root}}assets/img/feedback-loops.webp" alt="Feedback loops illustration (editing canvas)" width="1133" height="553">
+          <div class="explore__hotspots">
+            <button type="button" class="hotspot hotspot--sky" style="--x:17.7%;--y:19.4%" data-title="Atmosphere" aria-expanded="false"><span aria-hidden="true">+</span><span class="sr-only">Atmosphere</span></button>
+            <button type="button" class="hotspot hotspot--sky" style="--x:14.1%;--y:50%" data-title="Ice sheets" aria-expanded="false"><span aria-hidden="true">+</span><span class="sr-only">Ice sheets</span></button>
+            <button type="button" class="hotspot hotspot--sky" style="--x:14.8%;--y:68.6%" data-title="Permafrost" aria-expanded="false"><span aria-hidden="true">+</span><span class="sr-only">Permafrost</span></button>
+          </div>
+        </figure>
+        <p class="small">Double-click the image to add a point. Drag a point or use the arrow keys to move it.</p>
+      </div>
+
+      <aside class="editor__props" data-hotspot-props hidden aria-label="Point properties">
+        <h2 style="font-size:1.1rem;margin:0">Point</h2>
+        <div class="field">
+          <label for="hs-title">Title</label>
+          <input id="hs-title" name="title" type="text">
+        </div>
+        <div class="grid grid--2">
+          <div class="field">
+            <label for="hs-x">X (%)</label>
+            <input id="hs-x" name="x" type="number" min="0" max="100" step="0.1">
+          </div>
+          <div class="field">
+            <label for="hs-y">Y (%)</label>
+            <input id="hs-y" name="y" type="number" min="0" max="100" step="0.1">
+          </div>
+        </div>
+        <div class="field">
+          <label for="hs-category">Category</label>
+          <select id="hs-category" name="category">
+            <option>Ice</option>
+            <option>Water</option>
+            <option>Life</option>
+            <option>Climate</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="hs-description">Description</label>
+          <textarea id="hs-description" name="description"></textarea>
+        </div>
+        <div class="field">
+          <label for="hs-image">Image</label>
+          <input id="hs-image" name="image" type="text" placeholder="Optional image">
+        </div>
+        <div class="field">
+          <label for="hs-link">Link</label>
+          <input id="hs-link" name="link" type="url" placeholder="Optional link">
+        </div>
+        <div class="btn-row">
+          <button type="button" class="btn btn--small" data-hotspot-add>Add point</button>
+          <button type="button" class="btn btn--ghost btn--small" data-hotspot-delete>Delete point</button>
+        </div>
+      </aside>
+    </div>
+
+    <section class="section section--tight" aria-labelledby="pages-h">
+      <div class="section__head section__head--split">
+        <h2 id="pages-h">Pages</h2>
+        <a class="link-arrow" href="{{root}}index.html">View site</a>
+      </div>
+      <div class="table-scroll">
+        <table class="admin-table">
+          <thead>
+            <tr><th scope="col">Page</th><th scope="col">Type</th><th scope="col">Status</th><th scope="col"><span class="sr-only">Actions</span></th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Home</td><td>Page</td><td><span class="status-pill status-pill--live">Published</span></td><td><a href="#">Edit<span class="sr-only"> Home</span></a></td></tr>
+            <tr><td>Research</td><td>Page</td><td><span class="status-pill status-pill--live">Published</span></td><td><a href="#">Edit<span class="sr-only"> Research</span></a></td></tr>
+            <tr><td>Network</td><td>Page</td><td><span class="status-pill status-pill--live">Published</span></td><td><a href="#">Edit<span class="sr-only"> Network</span></a></td></tr>
+            <tr><td>Publications</td><td>Page</td><td><span class="status-pill status-pill--live">Published</span></td><td><a href="#">Edit<span class="sr-only"> Publications</span></a></td></tr>
+            <tr><td>About</td><td>Page</td><td><span class="status-pill status-pill--live">Published</span></td><td><a href="#">Edit<span class="sr-only"> About</span></a></td></tr>
+            <tr><td>Contact</td><td>Page</td><td><span class="status-pill status-pill--live">Published</span></td><td><a href="#">Edit<span class="sr-only"> Contact</span></a></td></tr>
+            <tr><td>Jobs</td><td>Page</td><td><span class="status-pill status-pill--live">Published</span></td><td><a href="#">Edit<span class="sr-only"> Jobs</span></a></td></tr>
+            <tr><td>Privacy</td><td>Page</td><td><span class="status-pill status-pill--live">Published</span></td><td><a href="#">Edit<span class="sr-only"> Privacy</span></a></td></tr>
+            <tr><td>Feedback loops</td><td>Interactive</td><td><span class="status-pill status-pill--draft">Draft</span></td><td><a href="#">Edit<span class="sr-only"> Feedback loops</span></a></td></tr>
+            <tr><td>Research sites</td><td>Interactive</td><td><span class="status-pill status-pill--live">Published</span></td><td><a href="#">Edit<span class="sr-only"> Research sites</span></a></td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="note" style="margin-top:20px">
+        <p>Placeholder: this is a visual concept of the editor. Nothing is stored; points and texts reset when the page reloads. Statuses in the table are example values.</p>
+      </div>
+    </section>
+  </div>
+</div>
