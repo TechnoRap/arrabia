@@ -1,0 +1,118 @@
+{
+ "note": "Titles and site links come from the Genially map. Theme and topic groupings are a draft by the designer; check with Rabia.",
+ "projects": [
+  {
+   "id": "ssp-1",
+   "ssp": "SSP 1",
+   "title": "Carbon loss through permafrost degradation, fires, and meltwater flows in Arctic Greenland",
+   "theme": "Land & ice",
+   "sites": [
+    "arctic"
+   ],
+   "topics": [
+    "permafrost",
+    "forests",
+    "ice-sheets"
+   ]
+  },
+  {
+   "id": "ssp-2",
+   "ssp": "SSP 2",
+   "title": "Vegetation dynamics, fires, and carbon flows in the Amazon",
+   "theme": "Life",
+   "sites": [
+    "amazon"
+   ],
+   "topics": [
+    "forests",
+    "atmosphere"
+   ]
+  },
+  {
+   "id": "ssp-3",
+   "ssp": "SSP 3",
+   "title": "Lagrangian modelling approach to tackle the multi-timescale problem of ocean carbon cycling",
+   "theme": "Ocean",
+   "sites": [
+    "ocean"
+   ],
+   "topics": [
+    "ocean",
+    "algae"
+   ]
+  },
+  {
+   "id": "ssp-4",
+   "ssp": "SSP 4",
+   "title": "Combined paleoclimate record and modelling study on carbon dynamics",
+   "theme": "Ocean",
+   "sites": [
+    "ocean"
+   ],
+   "topics": [
+    "ocean",
+    "algae"
+   ]
+  },
+  {
+   "id": "ssp-5",
+   "ssp": "SSP 5",
+   "title": "Combined paleoclimate record and modelling study on ocean-ice interactions",
+   "theme": "Ocean & ice",
+   "sites": [
+    "arctic",
+    "ocean",
+    "antarctica"
+   ],
+   "topics": [
+    "ocean",
+    "ice-sheets"
+   ]
+  },
+  {
+   "id": "ssp-6",
+   "ssp": "SSP 6",
+   "title": "Contemporary and future Greenland and Antarctic ice sheets, sea level, and ocean dynamics",
+   "theme": "Ice",
+   "sites": [
+    "arctic",
+    "ocean",
+    "antarctica"
+   ],
+   "topics": [
+    "ice-sheets",
+    "glaciers",
+    "ocean"
+   ]
+  },
+  {
+   "id": "ssp-7",
+   "ssp": "SSP 7",
+   "title": "Integrated study of entire watershed from high mountain Asia to the Indian Ocean",
+   "theme": "Water",
+   "sites": [
+    "himalaya"
+   ],
+   "topics": [
+    "glaciers",
+    "groundwater",
+    "humans"
+   ]
+  },
+  {
+   "id": "ssp-8",
+   "ssp": "SSP 8",
+   "title": "Reservoir construction and greenhouse climate feedbacks",
+   "theme": "Water",
+   "sites": [
+    "amazon",
+    "himalaya"
+   ],
+   "topics": [
+    "groundwater",
+    "humans",
+    "atmosphere"
+   ]
+  }
+ ]
+}

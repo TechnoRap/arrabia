@@ -1,0 +1,109 @@
+<!-- title: Contact | nav: contact | desc: Contact the EMBRACER office at Utrecht University, or send a message through the contact form. -->
+<section class="page-head">
+  <div class="wrap">
+    <p class="eyebrow">Contact</p>
+    <h1>Get in touch</h1>
+    <p class="lede">The EMBRACER office is based at the Faculty of Geosciences, Utrecht University. Write to us directly, or use the form.</p>
+  </div>
+</section>
+
+<section class="section section--tight">
+  <div class="wrap grid grid--2">
+    <div class="grid">
+      <div>
+        <h2>EMBRACER Office</h2>
+        <address class="prose">
+          <p>Utrecht University, Faculty of Geosciences<br>
+          Vening Meineszgebouw A<br>
+          Princetonlaan 8a<br>
+          3584 CB Utrecht</p>
+          <p><a href="mailto:info@embracer.nl">info@embracer.nl</a></p>
+        </address>
+      </div>
+
+      <div>
+        <h3>Office team</h3>
+        <dl class="meta-list">
+          <dt>Project Manager</dt>
+          <dd>dr. Sylvia Walter<br><a href="mailto:S.Walter@uu.nl">S.Walter@uu.nl</a></dd>
+          <dt>Data Support</dt>
+          <dd>Aristotelis Kandylas<br><a href="mailto:a.kandylas@uu.nl">a.kandylas@uu.nl</a></dd>
+          <dt>Administrative Assistant</dt>
+          <dd>Nora Azergui<br><a href="mailto:n.azergui@uu.nl">n.azergui@uu.nl</a></dd>
+          <dt>Outreach &amp; Education</dt>
+          <dd>Bjinse Dankert<br><a href="mailto:b.t.dankert@uu.nl">b.t.dankert@uu.nl</a></dd>
+        </dl>
+      </div>
+
+      <div class="card card--placeholder">
+        <div class="ph-img" aria-hidden="true"></div>
+        <p class="eyebrow">Visiting</p>
+        <h3>Route description</h3>
+        <p class="small">Placeholder: directions by public transport, bicycle and car, and a map of the Utrecht Science Park, to be supplied by the EMBRACER office.</p>
+      </div>
+    </div>
+
+    <div class="grid">
+      <div>
+        <h2>Send a message</h2>
+        <p class="small">All fields are required.</p>
+      </div>
+      <div class="note note--sky">
+        <p>Concept site: this form only demonstrates the validation and confirmation states. Nothing is sent or stored.</p>
+      </div>
+
+      <form class="grid" data-demo-form data-success="Thank you. Your message has been received. (Concept site: nothing was sent.)" novalidate>
+        <div class="grid grid--2">
+          <div class="field">
+            <label for="c-first">First name</label>
+            <input id="c-first" name="first_name" type="text" autocomplete="given-name" required aria-describedby="c-first-error">
+            <p class="field__error" id="c-first-error" role="alert" hidden>Please enter your first name.</p>
+          </div>
+          <div class="field">
+            <label for="c-last">Last name</label>
+            <input id="c-last" name="last_name" type="text" autocomplete="family-name" required aria-describedby="c-last-error">
+            <p class="field__error" id="c-last-error" role="alert" hidden>Please enter your last name.</p>
+          </div>
+        </div>
+
+        <div class="field">
+          <label for="c-email">E-mail</label>
+          <input id="c-email" name="email" type="email" autocomplete="email" required aria-describedby="c-email-error">
+          <p class="field__error" id="c-email-error" role="alert" hidden>Please enter a valid e-mail address, for example name@example.org.</p>
+        </div>
+
+        <div class="field">
+          <label for="c-subject">Subject</label>
+          <select id="c-subject" name="subject" required aria-describedby="c-subject-error">
+            <option value="">Choose a subject</option>
+            <option>General question</option>
+            <option>Research</option>
+            <option>Press</option>
+            <option>Jobs</option>
+            <option>Other</option>
+          </select>
+          <p class="field__error" id="c-subject-error" role="alert" hidden>Please choose a subject.</p>
+        </div>
+
+        <div class="field">
+          <label for="c-message">Message</label>
+          <textarea id="c-message" name="message" rows="6" required aria-describedby="c-message-error"></textarea>
+          <p class="field__error" id="c-message-error" role="alert" hidden>Please write a message.</p>
+        </div>
+
+        <div class="field">
+          <label for="c-consent" style="display:flex;gap:12px;align-items:flex-start;font-weight:400;font-size:.95rem">
+            <input id="c-consent" name="consent" type="checkbox" required aria-describedby="c-consent-error" style="width:22px;height:22px;min-height:0;margin-top:2px;flex:none">
+            <span>I have read the <a href="{{root}}privacy.html">privacy statement</a>. (Placeholder consent text, to be supplied by the EMBRACER office.)</span>
+          </label>
+          <p class="field__error" id="c-consent-error" role="alert" hidden>Please confirm you have read the privacy statement before sending.</p>
+        </div>
+
+        <div class="btn-row">
+          <button class="btn" type="submit">Send message</button>
+        </div>
+        <div class="form-status" role="status" hidden tabindex="-1"></div>
+      </form>
+    </div>
+  </div>
+</section>

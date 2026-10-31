@@ -1,0 +1,74 @@
+[
+ {
+  "id": "atmosphere",
+  "label": "Atmosphere",
+  "x": 17.7,
+  "y": 19.4,
+  "text": "A warmer atmosphere holds more moisture and traps more heat. It also shifts precipitation patterns—causing severe drought in some regions and extreme flooding in others—which directly affects groundwater recharge, glacier mass, and ecosystem health.",
+  "tone": "sky"
+ },
+ {
+  "id": "ice-sheets",
+  "label": "Ice sheets",
+  "x": 14.1,
+  "y": 50.0,
+  "text": "Bright ice and snow reflect sunlight back into space, helping keep the planet cool. As they melt into darker ocean water, the surface absorbs more heat. This accelerates further melting, raises sea levels, and alters ocean salinity and circulation.",
+  "tone": "sky"
+ },
+ {
+  "id": "permafrost",
+  "label": "Permafrost",
+  "x": 14.8,
+  "y": 68.6,
+  "text": "As temperatures rise, permafrost soil thaws and microbes decompose organic matter that has been locked away for thousands of years. This releases CO₂ and CH₄ into the atmosphere, which drives further warming.",
+  "tone": "sky"
+ },
+ {
+  "id": "ocean",
+  "label": "Ocean",
+  "x": 60.1,
+  "y": 68.6,
+  "text": "Warming waters and changing circulation can reduce how effectively the ocean stores carbon. If the ocean's carbon uptake weakens, more CO₂ stays in the atmosphere, accelerating warming.",
+  "tone": "ink"
+ },
+ {
+  "id": "algae",
+  "label": "Algae",
+  "x": 60.1,
+  "y": 57.6,
+  "text": "Algae take up CO₂ from the ocean through photosynthesis and help transport carbon into deeper waters. If warming, acidification, or nutrient shifts reduce algae growth, the ocean stores less carbon, and more CO₂ stays in the atmosphere.",
+  "tone": "ink"
+ },
+ {
+  "id": "forests",
+  "label": "Forests",
+  "x": 64.3,
+  "y": 38.8,
+  "text": "Forests are currently a fragile net carbon sink. Higher CO₂ stimulates plant growth, rising heat, drought, wildfires, and pest outbreaks, which are turning forests from carbon sinks into carbon sources. This is a critical land-climate feedback.",
+  "tone": "olive"
+ },
+ {
+  "id": "glaciers",
+  "label": "Glaciers",
+  "x": 77.9,
+  "y": 27.1,
+  "text": "Glaciers respond quickly to warming. As they shrink, they contribute to sea-level rise and reduce long-term freshwater storage, affecting river flow, groundwater recharge, and water supplies for millions of people downstream.",
+  "tone": "sky"
+ },
+ {
+  "id": "humans",
+  "label": "Humans",
+  "x": 74.6,
+  "y": 47.4,
+  "text": "Human emissions are the primary force driving climate feedbacks. The resulting changes in ice, ocean, land, and atmosphere create uncertainties that directly affect water security, agriculture, and our ability to adapt.",
+  "tone": "rust"
+ },
+ {
+  "id": "groundwater",
+  "label": "Groundwater",
+  "x": 95.1,
+  "y": 60.0,
+  "text": "Groundwater is shaped by changes in precipitation, snow and glacier melt, and drought. Climate-driven shifts in water availability directly impact ecosystems, farming, and human water security—especially in regions already under stress.",
+  "tone": "olive"
+ }
+]
